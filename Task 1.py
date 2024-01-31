@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[4]:
 
 
 print("Welcome to the Guessing Game!")
@@ -56,7 +53,7 @@ start_game()
 
 
 
-# In[ ]:
+
 
 
 
