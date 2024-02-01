@@ -1,6 +1,5 @@
 
 
-
 print("Welcome to the Guessing Game!")
 print("I'm thinking of a number between 1 and 10.")
 print("Can you guess what it is?")
@@ -18,7 +17,8 @@ def start_game():
         if attempts>=5:
             print(" You are done with all 5 chances !!Try next time All the best") 
             break
-
+        if attempts>=4:
+            print("last chance do best...")
             
         guess = input("Enter your guess: ")
         try:
@@ -33,7 +33,8 @@ def start_game():
         attempts += 1
         
         
-        
+        if attempts>4:
+            print("Lost don't worry...")
 
         if guess >10:
             print("out of limit\n")
@@ -48,13 +49,6 @@ def start_game():
             break
 
 start_game()
-
-
-
-
-
-
-
 
 
 
