@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[21]:
 
 
 temperature = int(input("Enter temperature value "))
@@ -27,25 +24,13 @@ if select.upper()=='K':
     print(x, "F")
 
 
-# In[ ]:
 
 
 
 
 
-# In[ ]:
 
 
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
