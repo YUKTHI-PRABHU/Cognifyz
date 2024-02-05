@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
 
 
 import requests 
@@ -11,7 +8,6 @@ print(r)
 print(r.content)
 
 
-# In[2]:
 
 
 import requests 
@@ -20,7 +16,6 @@ print(r.url)
 print(r.status_code)
 
 
-# In[3]:
 
 
 import requests 
@@ -31,7 +26,7 @@ soup = BeautifulSoup(r.content, 'html.parser')
 print(soup.prettify()) 
 
 
-# In[4]:
+
 
 
 import requests 
@@ -43,7 +38,6 @@ print(soup.title.name)
 print(soup.title.parent.name) 
 
 
-# In[ ]:
 
 
 
